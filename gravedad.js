@@ -40,9 +40,6 @@ var Plataforma = function(x, y){
   }
 };
 
-
-
- 
 function aplicarGravedad(){
   if(!personaje.enPiso){
     personaje.vy += gravedad;
@@ -56,24 +53,12 @@ function aplicarGravedad(){
     personaje.enPiso = true;
   }
 };
-
-
-
- 
 function mover(){
   personaje.x = personaje.x + personaje.vx; 
 };
-
-
-
- 
 function crearPlataformas(){
   plataformas.push(new Plataforma(220, 50));
 };
-
-
-
- 
 function dibujar(){
   context.fillStyle = "black";
   context.fillRect(0,0,600,400);
