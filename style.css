@@ -1,0 +1,99 @@
+body {
+  background-image: url(https://media.giphy.com/media/6kqtoA6DHgHLy/giphy.gif);
+  color: #fff;
+  font-family: Whitney, helvetica, arial, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+h2, h3 {
+  line-height: 0.7rem;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+
+.video1{
+ display: flex;
+ margin-top: 60px;
+ margin-left:117px; 
+}
+
+
+.forma-registro {
+    width: 324px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 152px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: -17px -34px 129px black;
+}
+
+
+
+.forma-registro h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controles {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: black;
+}
+
+.img1{
+  position: flex;
+  margin-bottom: 400px;
+  margin-right: 234px;
+  float: right;
+}
+.forma-registro p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.forma-registro  a {
+  color: white;
+  text-decoration: none;
+}
+
+.forma-registro a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.forma-registro .botones {
+  width: 100%;
+  border: none;
+  padding: 12px;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0rem;
+  left: 2rem;
+}
+#scene {
+  border: 2px;
+  background: #fff;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
