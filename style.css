@@ -1,11 +1,12 @@
-html{
+
+html {
   background: black;
+  scroll-behavior: smooth;
 }
 
 
-
 body {
-  background-image: url(https://media.giphy.com/media/6kqtoA6DHgHLy/giphy.gif);
+  background-image: url(https://media.giphy.com/media/VeC91e5rNwYWzPdMD3/giphy.gif);
   color: #fff;
   font-family: Whitney, helvetica, arial, sans-serif;
 }
@@ -20,7 +21,16 @@ a {
   color: #fff;
 }
 
-
+.randomMouse{
+  display: inline-block;
+  position: flex;
+}
+.randomMouse img{
+margin-left: 700px;
+position: absolute;
+width: 20px;
+height: 20px;
+}
 
 
 .video1{
